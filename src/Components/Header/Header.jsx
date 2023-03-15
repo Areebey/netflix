@@ -1,6 +1,7 @@
 import logo from "../../Logo.png";
 import React from 'react';
 import {Link} from "react-router-dom";
+import {ImSearch} from "react-icons/im";
 
 
 const Header = () => {
@@ -16,6 +17,8 @@ const Header = () => {
         <Link to="/tvshows">Tv Shows</Link>
         <Link to="/tvshows">Tv Shows</Link>
       </div>
+
+      <ImSearch/>
 
 
     </nav>
