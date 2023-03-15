@@ -9,6 +9,10 @@
 
 $bg: rgb(30,30,30);
 
+a{
+    color: white;
+    text-decoration: none;
+}
 .header{
     height: 100px;
     background-color:$bg;
@@ -16,8 +20,34 @@ $bg: rgb(30,30,30);
     align-items: center;
     box-sizing: border-box;
     padding: 2rem;
+    justify-content: space-between;
 
     > img{
         height: 100%;
     }
-}
+
+    >div{
+        // border: 1px solid red;
+        width: 100%;
+        margin-left: 2vmax;
+    }
+    svg{
+        color: white;
+        font-size: 2rem;
+        cursor: pointer;
+
+        &:hover{
+            color: rgb(194, 191, 191);
+        }
+    }
+    a{
+        margin: 2vmax;
+        font-size: 1.2rem;
+        font-weight: 300;
+
+        &:hover{
+            color: rgb(194, 191, 191);
+        }
+    }
+
+    }
