@@ -31,3 +31,21 @@ $bg: rgb(30,30,30);
         transform: translateY(-10px) scale(1.05);
     }
 }
+
+.genreBox{
+    overflow-x: auto;
+    display: flex;
+    height: 200px;
+    background-color: $bg;
+    a{
+        color: black;
+        background-color: white;
+        padding: 1rem;
+        margin: 1rem;
+        border-radius: 8px;
+        text-align: center;
+        min-width: 10rem;
+        justify-content: center;
+        align-items: center;
+    }
+}
