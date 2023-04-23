@@ -101,6 +101,8 @@ const Home = () => {
 
   })}
 </div>
+{/* 1.5min dekh ii  */}
+
 </section>
   )
 }
